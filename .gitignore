@@ -1,0 +1,50 @@
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# === Logs ===
+*.log
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# VM crash logs
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# === Gradle ===
+.gradle/
+build/
+**/build/
+!src/**/build/  # если вдруг в src есть кастомные build/ (редко нужно)
+gradle-app.setting
+.gradletasknamecache
+
+# Gradle wrapper - нужно оставить
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# === Other ===
+cmake-build-*/  # если вдруг у тебя в проекте будут CMake подсборки
+.idea_modules/
+# === Sensitive ===
+secrets.*
+*.key
+*.pem
+*.crt
+.env
